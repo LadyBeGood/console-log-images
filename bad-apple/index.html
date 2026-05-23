@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bad Apple</title>
+</head>
+<body>
+    Open DevTools (F12) to watch. Only works in Chromium based browsers.
+    
+    <script type="module">
+        const request = await fetch("./bad-apple.svg");
+        const svg = await request.text();
+        const base64Text = btoa(svg);
+
+        console.log("%c ", `
+            background-image: url('data:image/svg+xml;base64,${base64Text}'); 
+            background-repeat: no-repeat; 
+            padding: 240px 320px;
+        `)
+    </script>
+</body>
+</html>

@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consolemon</title>
+</head>
+<body>
+    Open DevTools (F12). Only works in Chromium based browsers.
+    
+    <script>
+        console.log("%c ", `
+            padding: 280px 280px;
+            background-repeat: no-repeat;
+            background-color: white;
+            background-image:
+                /* nose */
+                radial-gradient(at 40% 40%, #fff 12%, transparent 0),
+                radial-gradient(#e31634 42%, #090a05 0 49.5%, transparent 0),
+
+                /* left pupil */
+                radial-gradient(ellipse 65% 100%, transparent 18%, #090a05 0 49.5%, transparent 0),
+
+                /* right pupil */
+                radial-gradient(ellipse 65% 100%, transparent 18%, #090a05 0 49.5%, transparent 0),
+
+
+                /* left eye ball */
+                radial-gradient(ellipse 83% 100%, #fff 45%, #090a05 0 49.5%, transparent 0),
+
+                /* right eye ball */
+                radial-gradient(ellipse 83% 100% at 51%, #fff 45%, #090a05 0 49.5%, transparent 0),
+
+                /* nose to mouth line */
+                linear-gradient(to right, transparent 0%, #090a05 0 3%, transparent 0),
+
+                /* mouth */
+                radial-gradient(ellipse 308% 300% at 50% 0.25%, transparent 20%, #090a05 0 20.4%, transparent 0),
+
+                /* whishker 1 */
+                linear-gradient(201deg, transparent 20%, #090a05 0 22%, transparent 0),
+
+                /* whishker 2 */
+                linear-gradient(184deg, transparent 20%, #090a05 0 22.75%, transparent 0),
+
+                /* whishker 3 */
+                linear-gradient(166deg, transparent 20%, #090a05 0 22.5%, transparent 0),
+
+                /* whishker 4 */
+                linear-gradient(158.5deg, transparent 20%, #090a05 0 22.5%, transparent 0),
+
+                /* whishker 5 */
+                linear-gradient(177deg, transparent 20%, #090a05 0 22.5%, transparent 0),
+
+                /* whishker 6 */
+                linear-gradient(194deg, transparent 20%, #090a05 0 22.5%, transparent 0),
+
+                /* left foot */
+                radial-gradient(calc(35.436% * 5.7) calc(12.445% * 5.7) at 42.5% 19%, transparent 43.6%, #090a05 0 49%, transparent 0),
+                radial-gradient(440% 200% at 180% -17%, transparent 43.6%, #090a05 0 53%, transparent 0),
+                radial-gradient(calc(17.636% * 9.5) calc(10.981% * 9.5) at 128% 51%, transparent 43.6%, #090a05 0 50%, transparent 0),
+                radial-gradient(calc(35.436% * 5.7) calc(12.445% * 5.7) at 42.5% 19%, transparent 44%, #090a05 0 49.4%, transparent 0),
+                radial-gradient(calc(17.636% * 17) calc(10.981% * 17) at -38% -29%, transparent 42.75%, #090a05 0 51.5%, transparent 0),
+
+                /* right foot */
+                radial-gradient(calc(35.436% * 5.7) calc(12.445% * 5.7) at 59% 19.25%, transparent 43.6%, #090a05 0 49%, transparent 0),
+                radial-gradient(440% 200% at -80% -16.5%, transparent 43.6%, #090a05 0 53.75%, transparent 0),
+                radial-gradient(calc(17.636% * 9.5) calc(10.981% * 9.5) at -29% 51%, transparent 43.6%, #090a05 0 50%, transparent 0),
+                radial-gradient(calc(35.436% * 5.7) calc(12.445% * 5.7) at 59.5% 19%, transparent 44%, #090a05 0 49.4%, transparent 0),
+                radial-gradient(calc(17.636% * 17) calc(10.981% * 17) at 135% -20%, transparent 42.75%, #090a05 0 51.5%, transparent 0),
+
+                /* also bell */
+                radial-gradient(ellipse 200% 140% at 168% 55%, transparent 37%, #090a05 0 48%, transparent 0),
+                radial-gradient(ellipse 220% 130% at -68% 59%, transparent 37%, #090a05 0 48%, transparent 0),
+
+                /* bell inner circle */
+                radial-gradient(100% 90%, #625542 20%, #090a05 0 38.5%, transparent 0),
+
+                /* bell line */
+                linear-gradient(to right, #090a05 16.75%, transparent 0),
+
+                /* bell top curve */
+                radial-gradient(ellipse 200% 100% at 51% 90%, transparent 37%, #090a05 0 42.1%, transparent 0),
+
+                /* bell bottom curve */
+                radial-gradient(ellipse 200% 100% at 51% 90%, transparent 37%, #090a05 0 42.1%, transparent 0),
+
+                /* bell fill */
+                linear-gradient(#fcd441 15%, transparent 0),
+                linear-gradient(#fcd441 25%, transparent 0),
+                linear-gradient(#fcd441 25%, transparent 0),
+
+                /* bell */
+                radial-gradient(ellipse 100% 90% at 49.75% 112%, #fcd441 44%, #090a05 0 50%, transparent 0),
+                radial-gradient(ellipse 100% 98% at 50.75% 7%, #fcd441 44%, #090a05 0 49%, transparent 0),
+
+                /* strap sides */
+                radial-gradient(ellipse 120% 100% at 135% 50%, transparent 53.75%, #090a05 0 71%, transparent 0),
+                radial-gradient(ellipse 120% 100% at -35% 50%, transparent 53.75%, #090a05 0 71%, transparent 0),
+
+                /* strap */
+                radial-gradient(ellipse 290% 100% at 90% -12.7%, transparent 38%, #090a05 0 41.5%, transparent 0),
+                radial-gradient(ellipse 310% 100% at 7% -12.5%, transparent 38%, #090a05 0 41.5%, transparent 0),
+                radial-gradient(ellipse 280% 100% at 51% 22%, transparent 38%, #090a05 0 39.5%, #e31634 0 45%, transparent 0),
+
+                linear-gradient(#e31634),
+                linear-gradient(190deg, transparent 40%, #e31634 0 50%, transparent 0),
+                linear-gradient(transparent 40%, #e31634 0 50%, transparent 0),
+                linear-gradient(transparent 40%, #e31634 0 50%, transparent 0),
+                linear-gradient(173deg, transparent 40%, #e31634 0 50%, transparent 0),
+
+                /* pocket bottom stroke */
+                radial-gradient(ellipse 100% 94.33% at 50% 0%, #fff 40%, #090a05 0 42%, transparent 0),
+
+                /* pocket top stroke */
+                radial-gradient(ellipse 500% 100% at 50% 80%, transparent 40%, #090a05 0 42%, transparent 0),
+
+                /* belly */
+                radial-gradient(ellipse 100% 93.5% at 50% 32%, #fff 40%, #090a05 0 41.5%, transparent 0),
+
+                /* groin */
+                radial-gradient(ellipse 200% 110% at 50% 70%, transparent 40%, #090a05 0 53%, transparent 0),
+
+                /* thigh */
+                linear-gradient(to right, transparent 20%, #090a05 0 27%, transparent 0),
+
+
+                /* head inner left */
+                radial-gradient(ellipse 280% 280% at 126.5% 135.5%, transparent 45.1%, #090a05 0 46.6%, #01a8d8 0 55%, transparent 0),
+                radial-gradient(ellipse 370% 370% at 198.5% 44%, transparent 45.1%, #090a05 0 46.1%, #01a8d8 0 49%, transparent 0),
+                radial-gradient(ellipse 500% 500% at 232.75% -66%, transparent 45.1%, #090a05 0 45.9%, #01a8d8 0 47%, transparent 0),
+
+                /* head inner right */
+                radial-gradient(ellipse 280% 280% at -25.75% 135.5%, transparent 45.1%, #090a05 0 46.6%, #01a8d8 0 55%, transparent 0),
+                radial-gradient(ellipse 370% 370% at -116.6% 44%, transparent 45.1%, #090a05 0 46.1%, #01a8d8 0 49%, transparent 0),
+                radial-gradient(ellipse 500% 500% at -144.25% -66%, transparent 45.1%, #090a05 0 45.9%, #01a8d8 0 46.75%, transparent 0),
+
+                /* head outer */
+                radial-gradient(ellipse 350% 100% at 50% 60%, #01a8d8 45.75%, #090a05 0 51.75%, transparent 0),
+                radial-gradient(ellipse 465% 300% at 140% 150%, #01a8d8 45.25%, #090a05 0 47.5%, transparent 0),
+                radial-gradient(ellipse 465% 300% at -35% 150%, #01a8d8 45.25%, #090a05 0 47.25%, transparent 0),
+                radial-gradient(ellipse 2400% 1000% at -860% 300%, #01a8d8 45.75%, #090a05 0 46.5%, transparent 0),
+                radial-gradient(ellipse 250% 250% at -45% 50%, transparent 42.5%, #01a8d8 0 45.25%, #090a05 0 46.3%, transparent 0),
+                radial-gradient(ellipse 610% 610% at -174% -110%, transparent 44.25%, #01a8d8 0 45.5%, #090a05 0 46.4%, transparent 0),
+
+
+                /* head left */
+                radial-gradient(ellipse 495% 495% at -140% 192%, #01a8d8 45.5%, #090a05 0 46.9%, transparent 0),
+                radial-gradient(ellipse 250% 250% at 145% 50%, transparent 43%, #01a8d8 0 45.25%, #090a05 0 46.3%, transparent 0),
+                radial-gradient(ellipse 390% 390% at 175% 175.25%, transparent 35%, #01a8d8 0 45.25%, #090a05 0 46.6%, transparent 0),
+                radial-gradient(ellipse 610% 610% at 279.25% -110%, transparent 44.25%, #01a8d8 0 45.5%, #090a05 0 46.4%, transparent 0),
+
+                linear-gradient(#01a8d8),
+                linear-gradient(#01a8d8),
+                linear-gradient(#01a8d8),
+                linear-gradient(#01a8d8),
+
+
+                /* left torso */
+                radial-gradient(900% 900% at 418% 39%, transparent 40.25%, #090a05 0 40.5%, transparent 0),
+                radial-gradient(500% 1200% at 251% -200%, transparent 43.5%, #090a05 0 45.25%, transparent 0),
+
+                radial-gradient(900% 900% at 418% 39%, transparent 38.75%, #01a8d8 0 40.5%, transparent 0),
+                radial-gradient(500% 1200% at 251% -200%, transparent 30%, #01a8d8 0 45.25%, transparent 0),
+
+                /* right torso */
+                radial-gradient(900% 900% at -324% 39%, transparent 40.25%, #090a05 0 40.5%, transparent 0),
+                radial-gradient(500% 1200% at -144% -200%, transparent 43.6%, #090a05 0 45.25%, transparent 0),
+
+                radial-gradient(900% 900% at -324% 39%, transparent 38.75%, #01a8d8 0 40.5%, transparent 0),
+                radial-gradient(500% 1200% at -144% -200%, transparent 30%, #01a8d8 0 45.25%, transparent 0),
+
+                /* left hand */
+                radial-gradient(#fff 44%, #090a05 0 49.5%, transparent 0),
+
+                /* left arm strokes */
+                radial-gradient(ellipse 816% 640% at 360% -100%, transparent 37.1%, #01a8d8 0 44.5%, #090a05 0 44.95%, transparent 0),
+                radial-gradient(ellipse 530% 675% at -85% 300%, #01a8d8 44.1%, #090a05 0 45%, transparent 0),
+
+
+                linear-gradient(#01a8d8 0),
+                linear-gradient(#01a8d8 0),
+
+                /* right hand */
+                radial-gradient(#fff 44%, #090a05 0 49.5%, transparent 0),
+
+                /* right arm strokes */
+                radial-gradient(400% 400% at -98.75% 170%, #01a8d8 43.25%, #090a05 0 44%, transparent 0),
+                radial-gradient(600% 600% at 180% -190%, #01a8d8 43.25%, #090a05 0 46%, transparent 0),
+
+                /* right arm fills */
+                linear-gradient(#01a8d8 0),
+                linear-gradient(#01a8d8 0),
+                linear-gradient(#01a8d8 0),
+
+                /* extra */
+                linear-gradient(#01a8d8 6%, transparent 0),
+                linear-gradient(#01a8d8 6%, transparent 0),
+                linear-gradient(#01a8d8 99%, transparent 0),
+                linear-gradient(#01a8d8 42%, transparent 0),
+                linear-gradient(#01a8d8 42%, transparent 0);
+            background-size:
+                /* nose */
+                12.25% 12.25%,
+                12.25% 12.25%,
+
+                /* left pupil */
+                5.25% 5.25%,
+
+                /* right pupil */
+                5.25% 5.25%,
+
+                /* left eye ball */
+                16% 16%,
+
+                /* right eye ball */
+                16% 16%,
+
+                /* nose to mouth line */
+                19.5% 19.5%,
+
+                /* mouth */
+                44% 44%,
+
+                /* whishker 1 */
+                16% 16%,
+
+                /* whishker 2 */
+                14.5% 14.5%,
+
+                /* whishker 3 */
+                14.75% 14.75%,
+
+                /* whishker 4 */
+                15.8% 15.8%,
+
+                /* whishker 5 */
+                15% 15%,
+
+                /* whishker 6 */
+                14.75% 14.75%,
+
+                /* left foot */
+                15% 15%,
+                3% 3%,
+                8.5% 8.5%,
+                14% 14%,
+                4% 4%,
+
+                /* right foot */
+                15% 15%,
+                3% 3%,
+                8.5% 8.5%,
+                14% 14%,
+                4% 4%,
+
+
+                /* also bell */
+                3% 3%,
+                3% 3%,
+
+
+                /* bell inner circle */
+                3.5% 3.5%,
+
+                /* bell inner line */
+                3.8% 3.8%,
+
+                /* bell top curve */
+                10.1% 10.1%,
+
+                /* bell bottom curve */
+                10.1% 10.1%,
+
+                /* bell fill */
+                8.25% 10%,
+                3% 5%,
+                3% 5%,
+
+                /* bell */
+                10.5% 10.5%,
+                11% 11%,
+
+                /* strap sides */
+                3% 3%,
+                3% 3%,
+
+                /* strap */
+                15.9% 15.9%,
+                15.9% 15.9%,
+                39.5% 39.5%,
+                2.5% 2.5%,
+                10% 10%,
+                10% 10%,
+                10% 10%,
+                6% 6%,
+
+                /* pocket bottom stroke */
+                30.5% 30.5%,
+
+                /* pocket top stroke */
+                25.5% 25.5%,
+
+                /* belly */
+                40% 40%,
+
+                /* groin */
+                5% 5%,
+
+                /* thighs */
+                10% 10%,
+
+
+                /* head inner left */
+                14.25% 14.25%,
+                14.25% 14.25%,
+                14.25% 14.25%,
+
+                /* head inner right */
+                14.25% 14.25%,
+                14.25% 14.25%,
+                14.25% 14.25%,
+
+                /* head outer */
+                10% 10%,
+                10% 10%,
+                10% 10%,
+                6% 6%,
+                25.5% 25.5%,
+                11.5% 11.5%,
+
+                /* head left */
+                10% 10%,
+                25.5% 25.5%,
+                14% 14%,
+                11.5% 11.5%,
+
+                2% 6%,
+                4% 2%,
+                10% 3%,
+                2% 6%,
+
+                /* left torso */
+                25% 25%,
+                6.5% 6.5%,
+
+                25% 25%,
+                6.5% 6.5%,
+
+                /* right torso */
+                25% 25%,
+                6.5% 6.5%,
+
+                25% 25%,
+                6.5% 6.5%,
+
+                /* left hand */
+                17.75% 17.75%,
+
+                /* left arm strokes */
+                17.5% 17.5%,
+                11% 11%,
+
+
+                5% 5%,
+                12% 6%,
+
+                /* right hand */
+                16.5% 16.5%,
+
+                /* right arm strokes */
+                16.75% 16.75%,
+                3.5% 3.5%,
+
+                /* right arm fills */
+                4% 6%,
+                6% 6%,
+                12% 6%,
+
+                /* extra */
+                15% 15%,
+                15% 15%,
+                35% 35%,
+                13% 13%,
+                13% 13%;
+            background-position:
+                /* nose */
+                53.25% 15.34%,
+                53.25% 15.34%,
+
+                /* left pupil */
+                49.3% 9.25%,
+
+                /* right pupil */
+                56.9% 9.14%,
+
+                /* left eye ball */
+                46% 2.8%,
+
+                /* right eye ball */
+                61% 2.8%,
+
+                /* nose to mouth line */
+                65.25% 29%,
+
+                /* mouth */
+                55.5% 29%,
+
+                /* whisker 1 */
+                33.3% 21.1%,
+
+                /* whisker 2 */
+                33.8% 27.5%,
+
+                /* whisker 3 */
+                34.25% 35.75%,
+
+                /* whisker 4 */
+                73.5% 21.1%,
+
+                /* whisker 5 */
+                73.5% 27.25%,
+
+                /* whisker 5 */
+                73% 35.75%,
+
+                /* left foot */
+                44.25% 100%,
+                36% 92.9%,
+                29.6% 99.5%,
+                41.3% 107.5%,
+                51.25% 100.6%,
+
+                /* right foot */
+                62.4% 100%,
+                70.1% 92.9%,
+                77% 99.5%,
+                65.6% 107.4%,
+                54.75% 100%,
+
+
+                /* also bell */
+                46.3% 60%,
+                59.5% 60%,
+
+
+                /* bell inner circle */
+                53.1% 62.5%,
+
+                /* bell inner line */
+                54.75% 64.5%,
+
+                /* bell top curve */
+                53.25% 59%,
+
+                /* bell bottom curve */
+                53.25% 60.5%,
+
+                /* bell fill */
+                53.25% 65%,
+                49% 62%,
+                56.9% 62%,
+
+                /* bell */
+                53.25% 54%,
+                53.25% 67.5%,
+
+                /* strap sides */
+                31.9% 54%,
+                74% 54.25%,
+
+                /* strap */
+                39.4% 63%,
+                67.75% 63%,
+                54.9% 50%,
+                33.75% 54%,
+                39.5% 57.25%,
+                46% 58%,
+                60% 58%,
+                67.75% 57%,
+
+                /* pocket bottom stroke */
+                54.1% 100.75%,
+
+                /* pocket top stroke */
+                53.9%  80%,
+
+                /* belly */
+                54.75% 94.9%,
+
+                /* groin */
+                53.1% 90.75%,
+
+                /* thighs */
+                56.1% 96.75%,
+
+
+
+                /* head inner left */
+                30.4% 12.25%,
+                25% 29%,
+                29% 45.25%,
+
+                /* head inner right */
+                76.5% 12.25%,
+                85% 29%,
+                80% 45.25%,
+
+                /* head outer */
+                53% -0.75%,
+                42% -0.75%,
+                64% -0.75%,
+                71.75% 3%,
+                88% 21.25%,
+                80% 46.5%,
+
+
+                /* head left */
+                81.6% 6.5%,
+                20% 21.25%,
+                27.75% 2.25%,
+                26% 46.5%,
+
+                25% 20.5%,
+                39% 9%,
+                72% 9%,
+                81.25% 21%,
+
+
+                /* left torso */
+                25% 80%,
+                32.9% 90.9%,
+
+                25.5% 80%,
+                32.9% 90.9%,
+
+                /* right torso */
+                85% 80%,
+                72.9% 90.9%,
+
+                84.25% 80%,
+                72.4% 90.9%,
+
+                /* left hand */
+                11% 41.1%,
+
+                /* left arm strokes */
+                18.6% 58.9%,
+                26.5% 46.9%,
+
+
+                20.25% 47%,
+                36% 58.25%,
+
+                /* right hand */
+                89.25% 77.25%,
+
+                /* right arm strokes */
+                87.5% 61%,
+                76.25% 72.5%,
+
+                /* right arm fills */
+                80% 70.5%,
+                76% 68%,
+                69.25% 58.25%,
+
+
+                /* extra */
+                39.5% 99.5%,
+                67.25% 99.5%,
+                53.5% 88%,
+                43% 100%,
+                64% 100%;
+        `)
+    </script>
+</body>
+</html>
